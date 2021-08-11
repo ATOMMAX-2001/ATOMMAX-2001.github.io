@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ABILASH | PORTFOLIO</title>
+  <meta name="keywords" content="portfolio, abilash,student,cse,it, fresher">
+  <meta name="description" content="Hello I am Abilash This Is My Potfolio">
+
+  <link rel="icon" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="content-wrapper" class="whole-content">
+  <header class="header header--bg">
+    <div class="container">
+      <nav id="header-nav-bar" class="navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="#" ><h1 class="title-name">ABILASH</h1></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li onclick="notifyMe()"><a href="#">HOME</a></li>
+            <li onclick="move_idiot('#aboutSection')"><a href="#aboutSection" >ABOUT</a></li>
+            <li onclick="move_idiot('#skillSection')"><a href="#skillSection">SKILL</a></li> 
+            <li onclick="move_idiot('#projectSection')"><a href="#projectSection">PROJECT</a></li> 
+            <li onclick="move_idiot('#contactSection')"><a href="#contactSection">CONTACT</a></li> 
+          </ul>
+        </div>
+      </nav>
+      <div class="header__content text-center">
+        <span class="header__content__block">HELLO</span>
+        <h1 class="header__content__title">I'M ABILASH SURESH</h1>
+        <ul class="header__content__sub-title">
+          <li>STUDENT <span class="padding">&#45;</span></li>
+          <li>WEB DEVELOPER <span class="padding">&#45;</span></li>
+          <li>PROGRAMMER</li>
+        </ul>
+        <a class="header__button" onclick="talk()" href="mailto:i8cs008@sairamtap.edu.in">HAVE PROJECT? LET'S TALK</a>
+      </div>
+      <div class="social-icon pull-right">
+        <ul>
+          <li><a href="#"><em class="flaticon-facebook-letter-logo"></em></a></li>
+          <li><a href="#"><em class="flaticon-twitter-logo"></em></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section id="aboutSection" style="scroll-snap-align:start" class="about">
+    <div class="container about__container--narrow">
+      <div class="page-section">
+        <h2 class="page-section__title">ABOUT ME</h2>
+          <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+          <p class="page-section__paragraph">I am a Good Boy </p>
+          <div class="row gutters-80">
+            <div class="col-md-4">
+              <div class="about__image">
+                <img style="width:70%;"src="assets/images/about-me-image.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-8 about__content">
+              <p class="about__description"> I  am a Web Developer and Machine Learning Enthusiast.
+              Skilled in Python, C++, PHP, JavaScript, C, Java and various technology and soft skills such as Communication, Leadership, Teamwork .
+              And Having  Strong education professional with a Bachelor of Engineering - BE focused in Computer Science from Sri Sai Ram Institute
+              of Technology (Sairam Group of Institutions).</p>
+              <div class="row row--margin-top">
+                <div class="col-md-4">
+                  <p class="about__bio"><strong>NAME :</strong> S.ABILASH</p>
+                </div>
+                <div class="col-md-4">
+                  <p class="about__bio"><strong>LOCATION :</strong> TAMIL NADU,INDIA</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4" onclick="download_res()">
+                  <a id="thisResume" class="button button--colorful button--margin" href="/assets/resmue/S_ABILASH_RESUME.pdf" download="S ABILASH (RESUME)"  target="_blank" >DOWNLOAD CV</a>
+                </div>
+                <div class="col-md-4">
+                  <a class="button button--colorful button--margin" onclick="talk()" href="#">HIRE ME</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skillSection" style="width:100%;scroll-snap-align:start" class="skill skill--bg">
+    <div class="container skill__container--narrow">
+      <div class="page-section">
+        <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
+        <img class="page-section__title-style" src="assets/images/title-style-white.png" alt="">
+        <p class="page-section__paragraph page-section__paragraph--white">I am good at some tools and technology too </p>
+        <div class="row gutters-60">
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img style="width:65%;" src="assets/images/adobe-photoshop.png" alt="">
+              <h4 class="skill__single-part__title">PYTHON</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/adobe-illustrator.png" alt="">
+              <h4 class="skill__single-part__title">HTML, CSS & JS</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:85%;background-color:red;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img style="width:90%;" src="assets/images/adobe-after-effects.png" alt="">
+              <h4 class="skill__single-part__title">C++</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:70%;background-color:darkblue;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img style="width:100%;" src="assets/images/php-logo.png" alt="">
+              <h4 class="skill__single-part__title">PHP</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:65%;background-color: #C99AFF;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img style="width:90%;" src="assets/images/sql-logo.png" alt="">
+              <h4 class="skill__single-part__title">MySql</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:65%;background-color:orange">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <section style="scroll-snap-align:start" id="projectSection" class="portfolio">
+    <div class="container">
+      <div class="page-section">
+        <h2 class="page-section__title">MY PROJECT</h2>
+        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+        <p class="page-section__paragraph">I Love To Code!!!</p>
+      
+        <div class="portfolio__button-group">
+          <!-- <a class="button button--default" data-filter="all" href="#">ALL</a>
+          <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
+          <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
+          <a class="button button--default" data-filter=".category-c" href="#">HTML</a> -->
+          <a class="button button--default"  href="#">PYTHON</a>
+        </div>
+      
+        <div style="margin-left: 20%;" class="row gutters-40">
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-a category-b category-c" data-order="1">
+              <img style="margin-left: 5%;" class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-1.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>Object Detection</h4>
+                  <p>Using YOLO</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <!-- <a href="#"><img src="assets/images/search-icon.png" alt=""></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+                    
+          <div class="col-md-4">
+            <div class="portfolio__single-section mix category-b category-d" data-order="5">
+              <img style="height:80%;" class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-2.png" alt="">
+              <div class="portfolio__single-section__overlay">
+                <div class="overlay-content">
+                  <h4>Licence Plate Recognizer</h4>
+                  <p>Using Computer Vision</p>
+                </div>
+                <div class="portfolio__single-section__search-icon">
+                  <!-- <a href="#"><img src="assets/images/search-icon.png" alt=""></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="contactSection" class="footer footer--bg">
+    <div class="container text-center">
+      <h1 class="footer__title">ABILASH.S</h1>
+      <ul class="footer__contact-information">
+        <li onclick="talk()"><a  href="mailto:i8cs008@sairamtap.edu.in" target="_blank"><em class="material-icons">email</em> i8cs008@sairamtap.edu.in</a></li>
+        <li><a href="#"><em class="material-icons">location_on</em> Chennai,TamilNadu,India.</a></li>
+      </ul>
+    </div>
+    <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
+    <div class="container text-center">
+      <div class="social-icon">
+        <ul>
+          <li><a href="#"><em class="flaticon-facebook-letter-logo"></em></a></li>
+          <li><a href="#"><em class="flaticon-twitter-logo"></em></a></li>
+        </ul>
+      </div>
+      <p class="footer__paragraph">Copyright &copy; 2021 ❤️S.ABILASH , All Rights Reserved.</p>
+    </div>
+  </footer>
+</div>
+  <script src="assets/jquery/jquery-3.2.1.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/mixitup.js"></script>
+
+  <script>
+    $('a').click(function(e)
+      {
+        e.preventDefault();
+      });
+
+    // calling mixitup
+    var mixer = mixitup(".portfolio");
+
+    function move_idiot(flag){
+         window.location.href="/"+flag;      
+    }
+    setTimeout(function(){
+      window.localStorage.clear();
+    },10000);
+   
+  </script>
+</body>
+</html>  
